@@ -57,6 +57,7 @@ body {
   background-color: powderblue;
   font-family: 'Marck Script', cursive;
   position: relative;
+  height: 100vh;
 }
 
 .layout h1 {
@@ -70,9 +71,6 @@ body {
 }
 
 @media (max-width: 993px) {
-  .layout {
-    height: 750px;
-  }
   .layout .cloud1{
     position: absolute;
     right: 20px;
@@ -94,9 +92,6 @@ body {
   }
 }
 @media (min-width: 993px) {
-  .layout {
-    height: 625px;
-  }
   .layout .name {
     margin-top: 50px;
     margin-bottom: 50px;
