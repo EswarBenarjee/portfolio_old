@@ -70,6 +70,11 @@ body {
   font-size: 2rem;
 }
 
+
+.layout .mountain {
+  bottom: 0;
+}
+
 @media (max-width: 993px) {
   .layout .cloud1{
     position: absolute;
@@ -86,7 +91,6 @@ body {
   }
   .layout .mountain {
     position: absolute;
-    bottom: 0;
     left: 50px;
     width: 80%;
   }
