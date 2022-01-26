@@ -110,6 +110,11 @@ body {
     left: 250px;
     bottom: 300px;
   }
+  .layout .mountain {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+  }
 }
 
 
